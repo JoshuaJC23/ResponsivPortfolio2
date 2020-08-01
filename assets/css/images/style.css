@@ -1,0 +1,447 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: blue;
+}
+
+.wrapper {
+    /* width: 960px; */
+    margin: auto;
+}
+
+.nav {
+    background-color: black;
+    color: white;
+    font-size: large;
+    padding: 40px;
+    position: relative;
+    /* width: 100%; */
+}
+
+.header {
+    background-color: white;
+    color: black;
+    width: 250px;
+    text-align: center;
+    /* margin-left: 150px; */
+    position: absolute;
+    padding: 30px;
+    font-size: 22px;
+    font-weight: bold;
+    bottom: 0;
+    left: 150px;
+}
+
+.links {
+    /* background-color: darkgoldenrod; */
+    /* float: left; */
+    position: absolute;
+    right: 275px;
+    /* background-color:red; */
+    font-size: larger;
+    /* width: 300px */
+}
+
+.about {
+    margin-left: 5px;
+    color: white;
+}
+
+.about:hover {
+    color: yellow;
+}
+
+/* .about:visited {
+    color: black;
+} */
+
+.portfolio {
+    margin-left: 5px;
+    color: white;
+}
+
+.portfolio:hover {
+    color: yellow;
+}
+
+/* .portfolio:visited {
+    color: black;
+} */
+
+.contact {
+    color: white;
+    margin-left: 5px;
+}
+.contact:hover {
+    color: yellow;
+}
+
+/* .contact:visited {
+    color: black;
+} */
+
+.content {
+    clear: both;
+    /* background-color: saddlebrown; */
+    width: 960px;
+    margin: auto;
+    margin-top: 40px;
+    position: relative;
+}
+
+.intro {
+    background-color: black;
+    color: white;
+    width: 250px;
+    padding: 30px;
+    position: absolute;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.pp {
+    position: absolute;
+    background-color: white;
+    border-top: 2px solid black;   
+    /* position: relative; */
+    top: 76px;
+}
+
+img {
+    /* position: absolute; */
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+    float: left;
+    margin-right: 20px;
+    margin-left: 28px;
+    border-radius: 50%;
+    border: 2px solid black;
+    border-color: red;
+}
+
+#img1 {
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+    float: left;
+    margin-right: 20px;
+    margin-left: 28px;
+    border-radius: 50%;
+    border: 2px solid black;
+    border-color: black;
+}
+
+img:hover {
+    opacity: .5;
+}
+
+p {
+    line-height: 2;
+    left: 10px;
+    margin-top: 30px;
+     /* position: absolute;  */
+     padding-left: 20px;
+     padding-right: 20px;
+     height: 400px;
+}
+
+.form {
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 81.5px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 2px solid black;
+}
+
+#fullname {
+    margin-top: px;
+    width: 90%;
+    margin-left: 40px;
+
+}
+
+#email {
+    width: 90%;
+    margin-left: 40px;
+}
+
+#message {
+    width: 90%;
+    height: 200px;
+    margin-left: 40px;
+}
+
+#submit {
+    margin-left: 40px;
+    background-color: teal;
+    color: white;
+    padding: 7px;
+    /* padding-left: 10px; */
+    width: 90px;
+}
+
+.apps {
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    top: 81px;
+    height: 500px;
+    border-top: 2px solid black; 
+
+}
+
+.box1 {
+    background-color: black;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 30px;
+    left: 20px;
+    
+
+    /* height: 40px;
+    width: 150px; */
+    /* top: 100px; */
+}
+
+/* #hm {
+    position: absolute;
+
+} */
+
+.box2 {
+    position: absolute;
+    left: 300px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    top: 30px;
+
+
+}
+
+.box3 {
+    position: absolute;
+    left: 600px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    top: 30px;
+
+}
+
+.box4 {
+    position: absolute;
+    left: 600px;
+    background-color: black;
+    color: white;
+    top: 270px;
+    left: 150px;
+    text-align: center;
+
+}
+
+.box5 {
+    position: absolute;
+    left: 600px;
+    background-color: black;
+    color: white;
+    top: 270px;
+    left: 480px;
+    text-align: center;
+}
+
+@media screen and (max-width: 980px) {
+   body {
+       background-color: lightskyblue;
+   }
+
+   .nav {
+       background-color: brown  ;
+   }
+
+   .header {
+    left: 100px;
+    font-size: 100%;
+    background-color: black;
+    color: white;
+}
+
+    .links {
+        width: 250px;
+        left: 500px;
+        font-size: 100%;
+    }
+
+
+    .content {
+        width: 90%;
+    }
+
+    p {
+        height: 400px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .box2 {
+        left: 250px;
+    }
+
+    .box3 {
+        left: 475px;
+    }
+
+    .box4 {
+        left: 100px;
+    }
+
+    .box5 {
+        left: 375px;
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+     .nav {
+        margin-right: -191px;
+        background-color: white;
+     }
+
+    .links {
+        font-size: 100%;
+        left: 380px;
+    }
+
+    .header {
+        font-size: 100%;
+    }
+
+    p {
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 450px;
+    }
+
+    #img1 {
+        border: 4px dotted purple;
+        height: 200px;
+        width: 200px;
+    }
+
+    .contact,
+    .portfolio,
+    .about {
+        color: black;
+    }
+    .about:hover,
+    .portfolio:hover,
+    .contact:hover {
+        color: blue;
+    }
+
+    .box2 {
+        left: 330px;
+    }
+    
+    .box3 {
+        top: 270px;
+        left: 175px;
+    }
+    
+    .box4 {
+        top: 500px;
+        left: 50px;
+    }
+    
+    .box5 {
+        top: 500px;
+        left: 350px;
+    }
+
+    .apps {
+        height: 750px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 640px) {
+
+    .intro {
+        background-color: white;
+        color: black;
+    }
+
+    p {
+        height: 450px;
+        float: left;
+        background-color: black;
+        color: white;
+    }
+
+    #img1 {
+        border: 4px solid seagreen;
+        margin-left: 150px;
+        height: 250px;
+        width: 250px;
+    }
+
+    .header {
+        width: 100%;
+        left: 0;
+        top: 0;
+    }
+
+    .links {
+        width: 100%;
+        bottom: -25px;
+        left: 0;
+        text-align: center;
+        padding: 10px; background-color: gray;
+    }
+
+    .pp {
+        background-color: black;
+    }
+
+    .apps {
+     height: 1150px;
+     width: 300px;
+    }
+
+    .box2 {
+        top: 250px;
+        left: 20px;
+    }
+
+    .box3 {
+        top: 475px;
+        left: 20px;
+    }
+
+    .box4 {
+        top: 700px;
+        left: 20px;
+    }
+
+    .box5 {
+        top: 920px;
+        left: 20px;
+    }
+
+    #c3 {
+        margin-left: 150px;
+    }
+
+}
