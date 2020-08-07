@@ -4,7 +4,7 @@
 
 
 body {
-    background-color: blue;
+    background-color: rgb(204, 204, 204);
 }
 
 .wrapper {
@@ -13,6 +13,10 @@ body {
 }
 
 .nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* min-width: 8vh; */
     background-color: black;
     color: white;
     font-size: large;
@@ -22,11 +26,10 @@ body {
 }
 
 .header {
-    background-color: white;
+    background-color: rgb(224, 221, 221);
     color: black;
     width: 250px;
     text-align: center;
-    /* margin-left: 150px; */
     position: absolute;
     padding: 30px;
     font-size: 22px;
@@ -36,13 +39,20 @@ body {
 }
 
 .links {
-    /* background-color: darkgoldenrod; */
-    /* float: left; */
+    display: flex;
     position: absolute;
     right: 275px;
-    /* background-color:red; */
     font-size: larger;
-    /* width: 300px */
+    width: 30%;
+    justify-content: space-around;
+}
+
+.links a {
+    text-decoration: none;
+}
+
+.links li {
+    list-style: none;
 }
 
 .about {
